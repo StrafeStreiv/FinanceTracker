@@ -17,9 +17,6 @@ C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Microsoft.OpenApi
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Npgsql.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.csproj.AssemblyReference.cache
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.GeneratedMSBuildEditorConfig.editorconfig
@@ -36,7 +33,6 @@ C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\staticwebassets\m
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinanceTrackerWeb.props
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\scopedcss\bundle\FinanceTrackerWeb.styles.css
-C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceT.75D76DB8.Up2Date
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\refint\FinanceTrackerWeb.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.pdb
@@ -44,3 +40,9 @@ C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\ref\FinanceTrackerWeb.dll
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\FinanceTrackerWeb.staticwebassets.runtime.json
 C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.RazorAssemblyInfo.cache
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.RazorAssemblyInfo.cs
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sasha\source\repos\FinanceTrackerWeb\obj\Debug\net7.0\FinanceTrackerWeb.csproj.CopyComplete

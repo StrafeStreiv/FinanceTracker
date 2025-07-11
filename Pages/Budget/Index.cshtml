@@ -1,0 +1,41 @@
+﻿@page
+@model FinanceTrackerWeb.Pages.Budget.IndexModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Бюджет по категориям";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Категория</th>
+            <th>Лимит (₽)</th>
+            <th>Потрачено (₽)</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.Categories)
+        {
+            var spent = Model.CategorySpent.ContainsKey(category.Id) ? Model.CategorySpent[category.Id] : 0;
+            <tr>
+                <td>@category.Name</td>
+                <td>@(category.MonthlyLimit.HasValue ? category.MonthlyLimit.Value.ToString("C") : "—")</td>
+                <td>@spent.ToString("C")</td>
+                @if (category.MonthlyLimit.HasValue && spent > category.MonthlyLimit.Value)
+                {
+                    <div class="alert alert-danger mt-2">
+                        ⚠️ Превышен лимит на категорию!
+                    </div>
+                }
+
+                <td>
+                    <a asp-page="/Budget/Edit" asp-route-id="@category.Id" class="btn btn-primary">Редактировать</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

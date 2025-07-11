@@ -1,0 +1,33 @@
+﻿@page
+@model FinanceTrackerWeb.Pages.Categories.CreateModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Добавление новой категории";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" class="mb-3">
+    <div class="mb-3">
+        <label asp-for="Category.Name" class="form-label">Название</label>
+        <input asp-for="Category.Name" class="form-control" />
+        <span asp-validation-for="Category.Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category.MonthlyLimit" class="form-label"></label>
+        <input asp-for="Category.MonthlyLimit" class="form-control" />
+        <span asp-validation-for="Category.MonthlyLimit" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category.Type" class="form-label">Тип</label>
+        <select asp-for="Category.Type" class="form-select">
+            <option value="Income">Доход</option>
+            <option value="Expense">Расход</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="Index" class="btn btn-secondary">Отмена</a>
+</form>

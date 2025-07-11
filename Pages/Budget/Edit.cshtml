@@ -1,0 +1,26 @@
+﻿@page
+@model FinanceTrackerWeb.Pages.Budget.EditModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Изменить лимит";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Category.Id" />
+
+    <div class="mb-3">
+        <label asp-for="Category.Name" class="form-label"></label>
+        <input asp-for="Category.Name" class="form-control" disabled />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category.MonthlyLimit" class="form-label">Лимит (₽)</label>
+        <input asp-for="Category.MonthlyLimit" class="form-control" />
+        <span asp-validation-for="Category.MonthlyLimit" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/Budget/Index" class="btn btn-secondary">Отмена</a>
+</form>
