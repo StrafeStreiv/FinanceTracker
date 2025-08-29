@@ -62,6 +62,7 @@ dotnet run
 
 text
 https://localhost:7000 (или http://localhost:5000)
+
 **Структура базы данных**
 Основные сущности
 Users: Пользователи системы (наследуется от IdentityUser)
